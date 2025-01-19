@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Gym Name</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#plans">Membership Plans</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Fitness Journey Starts Here</h1>
+            <p>Join the best gym in town with state-of-the-art equipment and expert trainers.</p>
+            <div class="cta-buttons">
+                <a href="#plans" class="btn">Get Started</a>
+                <a href="#plans" class="btn secondary">View Plans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="about" class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Modern Equipment</h3>
+                <p>High-quality machines for every workout.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-check"></i>
+                <h3>Certified Trainers</h3>
+                <p>Professional and experienced trainers to guide you.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Flexible Memberships</h3>
+                <p>Plans tailored for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="plans" class="membership-plans">
+        <h2>Our Membership Plans</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Basic Plan</h3>
+                <p>$29/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>1 group class/week</li>
+                    <li>Locker access</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="plan premium">
+                <h3>Premium Plan</h3>
+                <p>$49/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>Unlimited group classes</li>
+                    <li>Personal trainer (1 session/week)</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="plan">
+                <h3>Elite Plan</h3>
+                <p>$79/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>Unlimited group classes</li>
+                    <li>Unlimited personal trainer sessions</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div class="trainer-list">
+            <div class="trainer">
+                <img src="trainer1.jpg" alt="Trainer 1">
+                <h3>John Doe</h3>
+                <p>Strength & Conditioning Expert</p>
+            </div>
+            <div class="trainer">
+                <img src="trainer2.jpg" alt="Trainer 2">
+                <h3>Jane Smith</h3>
+                <p>Yoga & Wellness Coach</p>
+            </div>
+            <div class="trainer">
+                <img src="trainer3.jpg" alt="Trainer 3">
+                <h3>Mike Johnson</h3>
+                <p>Cardio & Weight Loss Specialist</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gym Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
